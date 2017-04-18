@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.generator-polymer.generator-polymer">
+            function <span class="apidocSignatureSpan"></span>generator-polymer
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.generator-polymer.extend">
             function <span class="apidocSignatureSpan">generator-polymer.</span>extend
             <span class="apidocSignatureSpan">(protoProps, staticProps)</span>
@@ -728,6 +737,33 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.generator-polymer" id="apidoc.module.generator-polymer">module generator-polymer</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.generator-polymer.generator-polymer" id="apidoc.element.generator-polymer.generator-polymer">
+        function <span class="apidocSignatureSpan"></span>generator-polymer
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">generator-polymer = function () {
+  yeoman.Base.apply(this, arguments);
+
+  this.option(&#x27;skip-install&#x27;, {
+    desc:     &#x27;Whether dependencies should be installed&#x27;,
+    defaults: false
+  });
+
+  this.option(&#x27;skip-install-message&#x27;, {
+    desc:     &#x27;Whether commands run should be shown&#x27;,
+    defaults: false
+  });
+
+  this.sourceRoot(path.join(path.dirname(this.resolved), &#x27;templates/polymer-starter-kit&#x27;));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
