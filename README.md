@@ -1,6 +1,6 @@
 # npmdoc-generator-polymer
 
-#### api documentation for  [generator-polymer (v1.3.0)](https://github.com/yeoman/generator-polymer#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-generator-polymer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-generator-polymer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-generator-polymer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-generator-polymer)
+#### basic api documentation for  [generator-polymer (v1.3.0)](https://github.com/yeoman/generator-polymer#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-generator-polymer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-generator-polymer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-generator-polymer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-generator-polymer)
 
 #### Scaffold out a Polymer project
 
@@ -108,7 +108,8 @@
         "prepublish": "git submodule update --init --recursive",
         "test": "jshint {app,el,gh,seed,test}/*.js script-base.js util.js && mocha --reporter spec"
     },
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
